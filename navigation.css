@@ -1,0 +1,24 @@
+.main h1{
+    font-size: 20px;
+
+
+}
+
+
+.main{
+    display: flex;
+    gap: 100px;
+    justify-content:center ;
+    margin-top: 50px;
+    list-style-type: none;
+
+
+}
+
+.main li{
+    font-size: 15px;
+}
+
+.trending li{
+    font-size: 20px;
+}

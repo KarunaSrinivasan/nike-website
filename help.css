@@ -1,0 +1,159 @@
+
+.main{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    position: sticky;
+}
+
+.fa-user{
+    position: absolute;
+    top: 25px;
+    right: 130px;
+    color: rgb(41, 40, 40);
+    font-size: 20px;
+}
+
+.fa-user:hover{
+    text-decoration: underline;
+}
+
+.navigation img{
+    transform: translate(20px,25px);
+
+}
+
+.navigation h1{
+    width:130px;
+    font-size: 20px;
+    transform: translate(90px,-15px);
+    
+}
+
+.navigation button{
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    text-align: end;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(196, 194, 194);
+    border-radius: 8px;
+    
+}
+
+.navigation button :hover{
+    transform: scale(1.1);
+}
+
+.nav2{
+    background-color:rgb(227, 227, 227) ;
+    text-align: center;
+    font-size: 13px;
+    width: auto;
+    height: 50px;
+    
+}
+
+.get{
+    background-color: rgb(255, 255, 255);
+    width: 850px;
+    height: 75px;
+    border-radius: 15px;
+   margin: auto;
+    margin-top: 80px;
+    text-align: center;
+   border-style: solid;
+    
+    
+
+}
+
+.get h2{
+    position: absolute;
+    right: 855px;
+        top: 215px;
+    
+    
+}
+
+
+.get h3{
+    position: absolute;
+    top: 250px;
+    right: 675px;
+}
+
+
+
+.fa-circle-user{
+    position: absolute;
+    font-size: 60px;
+    transform: translate(-390px,-10px);
+
+    
+}
+
+.butto{
+    width: 90px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    transform: translate(300px,2px);
+    border-radius: 8px;
+    background-color: black;
+
+}
+
+
+.box h4{
+    font-size: 30px;
+    position: absolute;
+    left: 360px;
+    top: 300px;
+}
+
+.box1{
+    width: 250px;
+    height: 120px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+     border-radius: 8px;
+     
+
+}
+
+.box1 p{
+    transform: translate(25px,70px);
+}
+
+.box2 p{
+      transform: translate(25px,70px);
+
+}
+
+.box2{
+    width: 250px;
+    height: 120px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    margin-bottom: 200px;
+    border-radius: 8px;
+
+}
+
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    width: 850px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+ 
+}
+
+.fa-light{
+    font: 20px;
+}
