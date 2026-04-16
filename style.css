@@ -248,12 +248,8 @@ transform: translate(35px,9px);
 }
 
 
-
-
-
 .tilak{
    border-color: black;
-
 }
 
 
@@ -262,9 +258,6 @@ transform: translate(35px,9px);
       height: 1100px;
     margin-top: 100px;
   
-    
- 
-    
 }
 
 .feature{
@@ -373,9 +366,6 @@ transform: translate(35px,9px);
     font-size: 30px;
     transform: translate(60px,90px);
     width: 250px;
-
- 
-
 }
 
 .wat{
@@ -406,80 +396,185 @@ transform: translate(35px,9px);
      transform: scale(1.1);
 }
 
+
+
 @media (max-width: 768px){
 
-    /* NAVIGATION */
-    .navigation{
-        flex-direction: column;
-        align-items: center;
+    .main {
         height: auto;
     }
 
-    .navigation h2{
+    .sub {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .ai, .aii, .aiii {
+        transform: none;
+    }
+
+   
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        position: static;
+    }
+
+    .navigation h2 {
         transform: none;
         font-size: 16px;
+        margin: 4px 0;
     }
 
-    .nike{
+    .navigation input {
+        transform: none;
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    .nike {
+        transform: none;
+        width: 60px;
+        height: auto;
+    }
+
+   
+    .fa-heart,
+    .fa-bag-shopping,
+    .fa-magnifying-glass {
+        transform: none;
         position: static;
-        width: 70px;
+        font-size: 18px;
     }
 
-    /* VIDEO TEXT */
-    .tiltex{
+    .navidown {
+        position: static;
+        height: auto;
+        padding: 6px;
+    }
+
+    .navidown h3 {
+        font-size: 12px;
+        transform: none;
+        text-align: center;
+    }
+
+    .tilak video {
+        height: 250px;
+        margin-top: 0;
+    }
+
+    .tiltex {
         position: static;
         text-align: center;
         padding: 10px;
+        color: black;
     }
 
-    .tiltex h1{
-        font-size: 22px;
+    .tiltex h1 {
+        font-size: 20px;
         width: 100%;
         transform: none;
     }
 
-    .tiltex h2{
-        font-size: 14px;
+    .tiltex h2 {
+        font-size: 13px;
         transform: none;
     }
 
-    /* BUTTONS */
-    .what, .wat{
+    .what, .wat {
         position: static;
         margin: 5px;
-    }
-
-    /* FEATURED GRID */
-    .featuredmain{
-        grid-template-columns: 1fr;
-        margin-top: 50px;
-        transform: none;
-    }
-
-    /* SHOP SECTION */
-    .shop{
-        flex-direction: column;
-        transform: none;
-    }
-
-    /* SPOT GRID */
-    .subspot{
-        grid-template-columns: repeat(2,1fr);
-        transform: none;
-    }
-
-    .subspot img{
         width: 100px;
+        height: 35px;
+    }
+
+  
+    .feature {
+        position: static;
+        transform: none;
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .featuredmain {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
         transform: none;
     }
 
-    /* FOOTER */
-    .subfoot{
+
+    .conshop {
+        transform: none;
+        font-size: 22px;
+        padding: 10px;
+        width: auto;
+    }
+
+    .shop {
         flex-direction: column;
-        gap: 10px;
+        align-items: center;
+        transform: none;
+    }
+
+    .shop > div {
+        width: 90%;
+    }
+
+   
+    .mainspoty {
+        transform: none;
+    }
+
+    .spotlight img {
+        height: auto;
+        transform: none;
+    }
+
+    .spot img {
+        height: auto;
+        transform: none;
+    }
+
+  
+    .subspot {
+        grid-template-columns: repeat(3, 1fr);
+        transform: none;
+    }
+
+    .subspot img {
+        width: 90%;
+        transform: none;
+    }
+
+    .mainspot {
+        transform: none;
+    }
+
+   
+    .mainfoot {
+        transform: none;
+    }
+
+    .hr {
+        transform: none;
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .subfoot {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        transform: none;
+        margin-top: 15px;
+    }
+
+    .subfoot li {
+        transform: none;
     }
 
 }
-
-
-
