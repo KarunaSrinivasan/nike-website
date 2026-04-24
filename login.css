@@ -313,4 +313,198 @@ transform: translate(10px,9px);
 }
 
 
+@media (max-width: 599px) {
+    .main {
+        height: auto;
+        padding: 10px;
+    }
+
+    .ai {
+        transform: none;
+        margin: 5px 0;
+    }
+
+    .aii {
+        transform: none;
+        margin: 5px 0;
+    }
+
+    .aiii {
+        transform: none;
+        margin: 5px 0;
+    }
+
+    .sub {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+        padding: 8px;
+    }
+
+    .sub a {
+        font-size: 11px;
+    }
+
+    .sub hr {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 10px 5px;
+        gap: 10px;
+    }
+
+    .navigation h2 {
+        font-size: 16px;
+        transform: none;
+        margin-left: 5px;
+    }
+
+    .navigation li {
+        font-size: 12px;
+        margin-left: 5px;
+        display: none;
+    }
+
+    .navigation a {
+        font-size: 11px;
+    }
+
+    .navigation input {
+        width: 100%;
+        max-width: 150px;
+        height: 28px;
+        font-size: 12px;
+        transform: none;
+        padding: 4px;
+    }
+
+    .nike {
+        width: 50px;
+        height: auto;
+        transform: none;
+        position: static;
+        margin: 0;
+    }
+
+    .fa-heart, .fa-bag-shopping {
+        position: static;
+        font-size: 18px;
+        transform: none;
+        margin: 0 5px;
+        display: inline-block;
+    }
+
+    .fa-magnifying-glass {
+        font-size: 18px;
+        transform: none;
+    }
+
+    .sear {
+        transform: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 0;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        max-width: 400px;
+        position: static;
+        top: auto;
+        right: auto;
+        margin: 40px auto 20px;
+        padding: 20px;
+    }
+
+    .container input {
+        width: 100%;
+        max-width: 280px;
+        height: 45px;
+        font-size: 13px;
+        margin: 8px auto;
+    }
+
+    .container button {
+        width: 100%;
+        max-width: 260px;
+        height: 45px;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .container p {
+        font-size: 14px;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .navidown {
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .navidown h3 {
+        font-size: 14px;
+        transform: none;
+        margin: 0;
+    }
+
+    .tiltex {
+        position: static;
+        top: auto;
+        padding: 20px 10px;
+        margin-top: 20px;
+    }
+
+    .tiltex h1 {
+        font-size: 24px;
+        transform: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .tiltex h2 {
+        font-size: 16px;
+        transform: none;
+        width: 100%;
+    }
+
+    .tilak {
+        margin-top: 20px;
+    }
+
+    .tilak video {
+        height: auto;
+        max-height: 400px;
+        margin-top: 15px;
+    }
+
+    .wat, .what {
+        width: 100%;
+        max-width: 120px;
+        height: 36px;
+        position: static;
+        right: auto;
+        margin: 10px;
+        font-size: 13px;
+    }
+
+    .name {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+
 
